@@ -1,0 +1,66 @@
+.navbar {
+    background-color: red;
+}
+
+.navbar-brand {
+    /* width: 100px; */
+    color: white;
+}
+
+/* .navbar-toggler {
+    color: #fff !important;
+    opacity: 1;
+}
+
+.navbar-toggler-icon {
+    color: #fff !important;
+    opacity: 1;
+    
+} */
+
+.nav-link {
+    color: white;
+}
+
+nav ul li a{
+    color: white !important;
+}
+
+nav ul li a:hover {
+    opacity: .8 !important;
+}
+
+nav button {
+    color: white !important;
+    border: none !important;
+} 
+
+/* nav div div form button:hover {
+    background-color: none !important;
+} */
+
+.fa-icon {
+    color: white;
+    /* font-size: 60px; */
+}
+
+.btn-red {
+    color: red !important;
+    background: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-red:hover {
+    background: white !important;
+}
+
+.btn-danger {
+    background: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background: none !important;
+}
