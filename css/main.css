@@ -66,7 +66,47 @@ nav button {
 
 /* STYLING THE NAVBAR END */
 
+/* STYLING THE MAIN CONTENT START */
 
+.top-story {
+    background-color: blue;
+    /* height: 50vh; */
+}
+
+.featured-stories {
+    background-color: orange;
+    /* height: 50vh; */
+}
+
+.opinion {
+}
+
+.opinions {
+    background-color: beige;
+
+}
+
+.latest-news {
+    background-color: lightgreen;
+}
+
+.side-img {
+    background-color: lightsalmon;
+}
+
+.in-magazine {
+    background-color: gray;
+}
+
+.editors-pick {
+    background-color: brown;
+}
+
+.slide-shows {
+    background-color: pink;
+}
+
+/* STYLING THE MAIN CONTENT END */
 
 
 
