@@ -1,25 +1,25 @@
+body {
+    max-width: 1310px;
+    margin: 0 auto;
+}
+
+/* STYLING END NAVBAR START */
+
 .navbar {
     background-color: red;
 }
 
-.navbar-brand {
-    /* width: 100px; */
-    color: white;
+.nav-date {
+    display: none;
 }
 
-/* .navbar-toggler {
-    color: #fff !important;
-    opacity: 1;
+.nav-logo-img-big {
+    display: none;
 }
 
-.navbar-toggler-icon {
-    color: #fff !important;
-    opacity: 1;
-    
-} */
-
-.nav-link {
-    color: white;
+.nav-date {
+    color: #fff;
+    margin-top: 3%;
 }
 
 nav ul li a{
@@ -35,13 +35,8 @@ nav button {
     border: none !important;
 } 
 
-/* nav div div form button:hover {
-    background-color: none !important;
-} */
-
 .fa-icon {
     color: white;
-    /* font-size: 60px; */
 }
 
 .btn-red {
@@ -63,4 +58,133 @@ nav button {
 
 .btn-danger:hover {
     background: none !important;
+}
+
+.show {
+    display: none;
+}
+
+/* STYLING THE NAVBAR END */
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 990px) {
+    
+    .nav-date {
+        display: block;
+    }
+
+    .nav-logo {
+        width: 0;
+        margin: 0 auto;
+    }
+    
+    .nav-logo-img {
+        display: none;
+    }
+
+    .nav-logo-img-big {
+        display: block;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    /* styling the bottom navbar */
+
+    .show {
+        display: block;
+    }
+
+    .lg-nav {
+        background-color: #fff;
+        padding: 1rem 0;
+        /* padding-left: .2rem; */
+        border-bottom: 1px solid #f4f5f6;
+        position: relative;
+    }
+
+    .lg-nav::before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        content: "";
+        display: block;
+        width: 5rem;
+        background-color: #f72210;
+        border-left: 12px solid white;
+        border-top: 13px solid #f72210;
+    }
+
+    .lg-nav-li {
+        display: inline-block;
+        margin-right: 1rem;
+        padding-right: 1rem;
+        border-right: 1px solid #d9d9d9;
+        cursor: pointer;
+    }
+
+    
+    .lg-nav-link:link,
+    .lg-nav-link:visited {
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
+        font-size: 17px;
+    }
+    
+    .lg-nav-link:hover {
+        color: red;
+    }
+
+    .lg-nav-search {
+        display: inline-block;
+        width: 9%;
+        position: relative;
+    }
+
+    .lg-nav-input {
+        width: 100%;
+        border: none;
+        font-weight: 100;
+        font-size: 18px;
+
+    }
+
+    .lg-nav-search-icon {
+        background-color: none;
+        border: none;
+        position: absolute;
+        top: .2rem;
+        right: 1rem;
+        padding: 0;
+    }
+
+    .fa-icon-2 {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .lg-nav {
+        padding-left: 2rem;
+    }
+
+    .lg-nav-search-icon {
+        right: 2rem;
+    }
+
+    .lg-nav::before {
+        width: 10rem;
+    }
+
 }
