@@ -74,6 +74,8 @@ nav button {
     margin-top: 1rem;
 }
 
+
+/* Top story styles */
 .img-title {
     margin-top: .5rem;
     font-weight: bold;
@@ -81,7 +83,6 @@ nav button {
 
 .img-summary {
     font-size: 13px;
-    /* border-bottom: 1px solid black; */
 }
 
 .related {
@@ -99,8 +100,16 @@ nav button {
     max-width: 100%;
 }
 
+.article-img-div {
+    float: left;
+    margin-top: .5rem;
+}
 
+.article-img {
+    max-width: 100%;
+}
 
+/* Featured stories styles */
 .featured-stories {
     background-color: orange;
     /* height: 50vh; */
