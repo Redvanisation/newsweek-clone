@@ -111,7 +111,7 @@ nav button {
 
 /* Featured stories styles */
 .featured-stories {
-    background-color: orange;
+    /* background-color: orange; */
     /* height: 50vh; */
     order: 1;
 }
