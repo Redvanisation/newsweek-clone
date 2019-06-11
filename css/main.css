@@ -69,16 +69,23 @@ nav button {
 /* STYLING THE MAIN CONTENT START */
 
 .top-story {
-    background-color: blue;
-    /* height: 50vh; */
+    order: 0;
+}
+
+.top-story-img {
+    width: 100%;
+    max-width: 100%;
+
 }
 
 .featured-stories {
     background-color: orange;
     /* height: 50vh; */
+    order: 1;
 }
 
 .opinion {
+    order: 3;
 }
 
 .opinions {
@@ -106,6 +113,25 @@ nav button {
     background-color: pink;
 }
 
+
+
+
+.subscribe {
+
+}
+
+.subscribe-div {
+    background-color: gray;
+}
+
+.newsletter-div {
+    background-color: antiquewhite;
+}
+
+.footer {
+    background-color: royalblue;
+}
+
 /* STYLING THE MAIN CONTENT END */
 
 
@@ -116,8 +142,19 @@ nav button {
 
 /* MEDIA QUERIES */
 
+@media only screen and (min-width: 768px) {
+    .top-story {
+        order: 1;
+    }
+    
+    .featured-stories {
+        order: 0;
+    }
+}
+
 @media only screen and (min-width: 990px) {
     
+
     .nav-date {
         display: block;
     }
@@ -143,7 +180,7 @@ nav button {
 
     .show {
         display: block;
-    }
+    } 
 
     .lg-nav {
         background-color: #fff;
