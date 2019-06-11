@@ -68,6 +68,28 @@ nav button {
 
 /* STYLING THE MAIN CONTENT START */
 
+.block-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.img-title {
+    margin-top: .5rem;
+    font-weight: bold;
+}
+
+.img-summary {
+    font-size: 13px;
+    /* border-bottom: 1px solid black; */
+}
+
+.related {
+    font-weight: bold;
+    border-top: 1px solid #d9d9d9;
+    padding: 1rem 0 2rem;
+}
+
 .top-story {
     order: 0;
 }
@@ -75,8 +97,9 @@ nav button {
 .top-story-img {
     width: 100%;
     max-width: 100%;
-
 }
+
+
 
 .featured-stories {
     background-color: orange;
