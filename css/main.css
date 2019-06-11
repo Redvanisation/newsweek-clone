@@ -111,8 +111,6 @@ nav button {
 
 /* Featured stories styles */
 .featured-stories {
-    /* background-color: orange; */
-    /* height: 50vh; */
     order: 1;
 }
 
@@ -121,12 +119,33 @@ nav button {
 }
 
 .opinions {
-    background-color: beige;
 
 }
 
+.opinions-row {
+    border-top: 1px solid #ddd;
+    padding: .5rem 0;
+}
+
+.opinion-img-div {
+    /* margin-left: .5rem; */
+}
+
+.opinion-author {
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    text-transform: uppercase;
+    margin-top: 4px;
+    font-weight: bold;
+}
+
 .latest-news {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
+}
+
+.latest-news-img {
+    max-width: 100%;
 }
 
 .side-img {
