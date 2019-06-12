@@ -303,17 +303,90 @@ nav button {
     color: red;
 }
 
+.subscribe-main-title {
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    /* margin-left: .5rem; */
+}
 
 .subscribe {
-
+    border-top: 2px solid #f4f5f6;
+    margin-top: 1rem;
+    padding-top: 1rem;
 }
 
 .subscribe-div {
-    background-color: gray;
+    margin-top: 1rem;
+    /* border: 1px solid red; */
 }
 
+.subscribe-card {
+    background-color: #f4f5f6;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.subscribe-img-div {
+    text-align: center;
+}
+
+.subscribe-img {
+    max-width: 100%;
+}
+
+.subscribe-text {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.subscribe-title {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+
+.subscribe-p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.subscribe-btn:link,
+.subscribe-btn:visited {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: red;
+    font-weight: bold;
+    padding: 7px 10px;
+    margin: 1rem 0;
+}
+
+
+
 .newsletter-div {
-    background-color: antiquewhite;
+    margin-top: 1rem;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.newsletter-card {
+    border:1px solid #ebebeb;
+    max-width: 100%;
+    margin: 0 auto;
+    /* height: 100%; */
+    /* max-height: 100%; */
+    /* padding: 1rem; */
+}
+
+.newsletter-img {
+    max-height: 100%;
+    max-width: 100%;
+    background-image: url('https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .footer {
@@ -329,6 +402,11 @@ nav button {
 
 
 /* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+    .newsletter-img {
+        height: 160px;
+    }
+}
 
 @media only screen and (min-width: 768px) {
     .top-story {
@@ -337,6 +415,10 @@ nav button {
     
     .featured-stories {
         order: 0;
+    }
+
+    .subscribe-text {
+        text-align: left;
     }
 }
 
