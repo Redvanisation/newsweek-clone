@@ -180,7 +180,6 @@ nav button {
 .in-mag-border {
     border-top: 1px solid #d9d9d9;
     padding-top: 1rem;
-
 }
 
 .section-title {
@@ -195,7 +194,7 @@ nav button {
 }
 
 .article-text {
-    margin: .5rem 0 1rem;
+    margin: 1rem 0 1rem;
 }
 
 .article-genre,
@@ -231,11 +230,27 @@ nav button {
 }
 
 .editors-pick {
-    background-color: brown;
+    text-align: center;
+}
+
+.editors-title {
+    font-weight: bold;
+    cursor: pointer;
+    /* margin-top: .5rem; */
+}
+
+.editors-title:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
 }
 
 .slide-shows {
-    background-color: pink;
+    /* background-color: pink; */
+    text-align: center;
+}
+
+.article-card-featured {
+    margin-bottom: 1.5rem;
 }
 
 
