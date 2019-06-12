@@ -236,7 +236,6 @@ nav button {
 .editors-title {
     font-weight: bold;
     cursor: pointer;
-    /* margin-top: .5rem; */
 }
 
 .editors-title:hover {
@@ -245,7 +244,6 @@ nav button {
 }
 
 .slide-shows {
-    /* background-color: pink; */
     text-align: center;
 }
 
@@ -253,7 +251,57 @@ nav button {
     margin-bottom: 1.5rem;
 }
 
+.fig-btm-title {
+    font-weight: bold;
+    color: red;
+    border-top: 1px solid #d9d9d9;
+    padding-top: 1.5rem;
+}
 
+.multi-fig {
+    padding-bottom: 1rem;
+}
+
+.multi-fig:not(:first-child) {
+    padding-top: .5rem;
+}
+
+.multi-fig:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+
+}
+
+.fig-img {
+    max-width: 100%;
+}
+
+.fig-title {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: .2rem;
+    cursor: pointer;
+}
+
+.fig-title:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.fig-thumb {
+    max-width: 100%;
+}
+
+.fig-thumb-title {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.fig-thumb-title:hover {
+    color: red;
+}
 
 
 .subscribe {
