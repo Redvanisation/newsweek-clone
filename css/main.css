@@ -148,12 +148,86 @@ nav button {
     max-width: 100%;
 }
 
+.side-img-div {
+    /* background-color: lightsalmon; */
+}
+
 .side-img {
-    background-color: lightsalmon;
+    max-width: 100%;
+    margin-top: 3rem;
+}
+
+.bottom-title {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.btn-btm {
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #f4f5f6;
+    margin-bottom: 1rem;
 }
 
 .in-magazine {
-    background-color: gray;
+    text-align: center;
+}
+
+.in-mag-border {
+    border-top: 1px solid #d9d9d9;
+    padding-top: 1rem;
+
+}
+
+.section-title {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 1rem auto .5rem;
+}
+
+.article-card {
+    text-align: left;
+}
+
+.article-text {
+    margin: .5rem 0 1rem;
+}
+
+.article-genre,
+.article-topic {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.article-genre {
+    background-color: red;
+    color: #fff;
+    padding: 4px 7px;
+    margin-right: .2rem;
+}
+
+.article-topic {
+    color: red;
+}
+
+.article-title {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: .2rem;
+    cursor: pointer;
+}
+
+.article-title:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
 }
 
 .editors-pick {
