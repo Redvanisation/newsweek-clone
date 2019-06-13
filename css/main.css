@@ -79,6 +79,20 @@ nav button {
 .img-title {
     margin-top: .5rem;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.img-title:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.img-h3 {
+    cursor: pointer;
+}
+
+.img-h3:hover {
+    color: red;
 }
 
 .img-summary {
@@ -584,7 +598,7 @@ nav button {
         width: 5rem;
         background-color: #f72210;
         border-left: 12px solid white;
-        border-top: 13px solid #f72210;
+        /* border-top: 13px solid #f72210; */
     }
 
     .lg-nav-li {
@@ -623,7 +637,7 @@ nav button {
     }
 
     .lg-nav-search-icon {
-        background-color: none;
+        background-color: transparent;
         border: none;
         position: absolute;
         top: .2rem;
