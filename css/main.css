@@ -390,8 +390,86 @@ nav button {
 }
 
 .footer {
-    background-color: royalblue;
+    color: #666;
+    margin: 3rem auto;
 }
+
+.footer-img-div {
+    border-top: 2px solid #f4f5f6;
+    padding-top: 1rem;
+}
+
+.footer-logo {
+    max-width: 50%;
+}
+
+.footer-img-txt {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.footer-icons-li {
+    display: inline-block;
+    font-size: 23px;
+}
+
+.footer-icons-li:not(:last-child) {
+    margin-right: .5rem;
+}
+
+.footer-icons-link:link, 
+.footer-icons-link:visited {
+    color: #666;
+}
+
+.footer-menu {
+    border-top: 2px solid #f4f5f6;
+    padding-top: 1rem;
+}
+
+.footer a {
+    color: #666;
+}
+
+.footer-menu-ul {
+
+}
+
+.footer-menu-li,
+.editions-li {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-bottom: .2rem;
+}
+
+.menu-li-link:link,
+.menu-li-link:visited,
+.editions-link:link,
+.editions-link:visited {
+    font-weight: 100;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu-li-link:hover,
+.editions-link:hover {
+    color: #000;
+}
+
+.footer-editions {
+
+}
+
+.editions-h6 {
+    display: inline-block;
+    margin-right: .5rem;
+    font-size: 15px;
+}
+
+.editions-ul {
+    display: inline;
+}
+
 
 /* STYLING THE MAIN CONTENT END */
 
@@ -419,6 +497,43 @@ nav button {
 
     .subscribe-text {
         text-align: left;
+    }
+
+    .footer-img-div {
+        position: relative;
+    }
+
+    .footer-logo {
+        max-width: 60%;
+        display: inline-block;
+    }
+    
+    .footer-img-txt {
+        display: inline-block;
+        position: relative;
+        top: .9rem;
+    }
+
+    .footer-icons-ul {
+        margin-top: 1.5rem;
+    }
+
+    .icons-div {
+        border-top: 2px solid #f4f5f6;
+        padding-top: 1rem;
+        text-align: right;
+    }
+
+    .footer-menu-li:not(:last-child),
+    .editions-li:not(:last-child) {
+        border-right: 1px solid #d9d9d9;
+        padding-right: .5rem;
+        margin-right: 0;        
+    }
+    
+    .footer-menu-li,
+    .editions-li {
+        padding-left: .5rem;
     }
 }
 
@@ -518,6 +633,15 @@ nav button {
 
     .fa-icon-2 {
         font-size: 16px;
+    }
+
+    .footer-logo {
+        max-width: 40%;
+    }
+
+    .footer-editions {
+        border-top: 2px solid #f4f5f6;
+        padding-top: 1rem;
     }
 }
 
