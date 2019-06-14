@@ -18,6 +18,7 @@
 </head>
 <body>
     <!-- start of bootstrap nav -->
+    <header>
     <nav class="navbar navbar-dark sticky-top">
         <div class="container-fluid">
             <div class="nav-date">
@@ -32,12 +33,12 @@
                 <button type="button" class="btn btn-light btn-sm btn-red">subscribe  ></button>
             </div>
             <!-- bootstrap nav -->
-                <button class="navbar-toggler hide" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler hide-on-lg" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
               
                 <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
-                <ul class="navbar-nav float-right hide">
+                <ul class="navbar-nav float-right">
                     <li class="form-inline my-2 my-lg-0">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn my-2 my-sm-0" type="submit"><i class="fas fa-search fa-icon"></i></button>
@@ -72,30 +73,34 @@
 
                 </ul>
 
-                </div>
             </div>
-    </nav>
+            </div>
+        </nav>
     
-    <ul class="lg-nav show">
-        <li class="lg-nav-li"><a href="#" class="lg-nav-link">U.S.</a></li>
-        <li class="lg-nav-li"><a href="#" class="lg-nav-link">World</a></li>
-        <li class="lg-nav-li"><a href="#" class="lg-nav-link">Business</a></li>
-        <li class="lg-nav-li"><a href="#" class="lg-nav-link">Tech & Science</a></li>
-        <li class="lg-nav-li"><a href="#" class="lg-nav-link">Culture</a></li>
-        <li class="lg-nav-li"><a href="#" class="lg-nav-link">Sports</a></li>
-        <li class="lg-nav-li"><a href="#" class="lg-nav-link">Health</a></li>
-        <li class="lg-nav-li"><a href="#" class="lg-nav-link">Opinion</a></li>
-        <li class="lg-nav-li"><a href="#" class="lg-nav-link">Ndelible</a></li>
-        <li class="lg-nav-search">
-            <input class="lg-nav-input" type="search" placeholder="Search" aria-label="Search">
-            <button class="lg-nav-search-icon" type="submit"><i class="fas fa-search fa-icon-2"></i></button>
-        </li>
-    </ul>
+        <nav>
+            <ul class="lg-nav show-on-lg">
+                <li class="lg-nav-li"><a href="#" class="lg-nav-link">U.S.</a></li>
+                <li class="lg-nav-li"><a href="#" class="lg-nav-link">World</a></li>
+                <li class="lg-nav-li"><a href="#" class="lg-nav-link">Business</a></li>
+                <li class="lg-nav-li"><a href="#" class="lg-nav-link">Tech & Science</a></li>
+                <li class="lg-nav-li"><a href="#" class="lg-nav-link">Culture</a></li>
+                <li class="lg-nav-li"><a href="#" class="lg-nav-link">Sports</a></li>
+                <li class="lg-nav-li"><a href="#" class="lg-nav-link">Health</a></li>
+                <li class="lg-nav-li"><a href="#" class="lg-nav-link">Opinion</a></li>
+                <li class="lg-nav-li"><a href="#" class="lg-nav-link">Ndelible</a></li>
+                <li class="lg-nav-search">
+                    <input class="lg-nav-input" type="search" placeholder="Search" aria-label="Search">
+                    <button class="lg-nav-search-icon" type="submit"><i class="fas fa-search fa-icon-2"></i></button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
     <!-- end of bootstrapnav -->
 
     <!-- start of main content -->
 
-    <div class="container-fluid">
+    <main class="container-fluid">
         <div class="row">
 
             <section class="col-12 col-md-7 col-lg-5 top-story">
@@ -874,61 +879,62 @@
         </section>
 
     <!-- end of main content -->
+    </main>
+
 
     <!-- start of footer -->
 
-        <footer class="footer row">
+    <footer class="footer row">
             
-                <div class="col-12 col-md-8 footer-img-div">
-                    <img src="img/footer-logo.png" alt="Footer Logo" class="footer-logo">
-                    <p class="footer-img-txt">© 2019 Newsweek</p>
-                </div>
+        <div class="col-12 col-md-8 footer-img-div">
+            <img src="img/footer-logo.png" alt="Footer Logo" class="footer-logo">
+            <p class="footer-img-txt">© 2019 Newsweek</p>
+        </div>
 
-                <div class="col-12 col-md-4 icons-div">
-                    <ul class="footer-icons-ul">
-                        <li class="footer-icons-li"><a href="#" class="footer-icons-link"><i class="fab fa-facebook-square footer-icon"></i></a></li>
-                        <li class="footer-icons-li"><a href="#" class="footer-icons-link"><i class="fab fa-twitter footer-icon"></i></a></li>
-                        <li class="footer-icons-li"><a href="#" class="footer-icons-link"><i class="fab fa-instagram footer-icon"></i></a></li>
-                        <li class="footer-icons-li"><a href="#" class="footer-icons-link"><i class="fab fa-tumblr footer-icon"></i></a></li>
-                        <li class="footer-icons-li"><a href="#" class="footer-icons-link"><i class="fab fa-linkedin-in footer-icon"></i></a></li>
-                    </ul>
-                </div>
+        <div class="col-12 col-md-4 icons-div">
+            <ul class="footer-icons-ul">
+                <li class="footer-icons-li"><a href="#" class="footer-icons-link"><i class="fab fa-facebook-square footer-icon"></i></a></li>
+                <li class="footer-icons-li"><a href="#" class="footer-icons-link"><i class="fab fa-twitter footer-icon"></i></a></li>
+                <li class="footer-icons-li"><a href="#" class="footer-icons-link"><i class="fab fa-instagram footer-icon"></i></a></li>
+                <li class="footer-icons-li"><a href="#" class="footer-icons-link"><i class="fab fa-tumblr footer-icon"></i></a></li>
+                <li class="footer-icons-li"><a href="#" class="footer-icons-link"><i class="fab fa-linkedin-in footer-icon"></i></a></li>
+            </ul>
+        </div>
 
-                <div class="col-12 col-lg-8 footer-menu">
-                    <ul class="footer-menu-ul">
-                        <li class="footer-menu-li"><a href="#" class="menu-li-link">About Us</a></li>
-                        <li class="footer-menu-li"><a href="#" class="menu-li-link">Corrections</a></li>
-                        <li class="footer-menu-li"><a href="#" class="menu-li-link">Contact Us</a></li>
-                        <li class="footer-menu-li"><a href="#" class="menu-li-link">Editorial Guidelines</a></li>
-                        <li class="footer-menu-li"><a href="#" class="menu-li-link">Advertise</a></li>
-                        <li class="footer-menu-li"><a href="#" class="menu-li-link">Copyright</a></li>
-                        <li class="footer-menu-li"><a href="#" class="menu-li-link">Terms & Conditions</a></li>
-                        <li class="footer-menu-li"><a href="#" class="menu-li-link">Cookie Policy</a></li>
-                        <li class="footer-menu-li"><a href="#" class="menu-li-link">Terms of Sale</a></li>
-                        <li class="footer-menu-li"><a href="#" class="menu-li-link">Archive</a></li>
-                        <li class="footer-menu-li"><a href="#" class="menu-li-link">Announcements</a></li>
-                        <li class="footer-menu-li"><a href="#" class="menu-li-link">Consent preferences</a></li>
-                    </ul>
-                </div>
+        <div class="col-12 col-lg-8 footer-menu">
+            <ul class="footer-menu-ul">
+                <li class="footer-menu-li"><a href="#" class="menu-li-link">About Us</a></li>
+                <li class="footer-menu-li"><a href="#" class="menu-li-link">Corrections</a></li>
+                <li class="footer-menu-li"><a href="#" class="menu-li-link">Contact Us</a></li>
+                <li class="footer-menu-li"><a href="#" class="menu-li-link">Editorial Guidelines</a></li>
+                <li class="footer-menu-li"><a href="#" class="menu-li-link">Advertise</a></li>
+                <li class="footer-menu-li"><a href="#" class="menu-li-link">Copyright</a></li>
+                <li class="footer-menu-li"><a href="#" class="menu-li-link">Terms & Conditions</a></li>
+                <li class="footer-menu-li"><a href="#" class="menu-li-link">Cookie Policy</a></li>
+                <li class="footer-menu-li"><a href="#" class="menu-li-link">Terms of Sale</a></li>
+                <li class="footer-menu-li"><a href="#" class="menu-li-link">Archive</a></li>
+                <li class="footer-menu-li"><a href="#" class="menu-li-link">Announcements</a></li>
+                <li class="footer-menu-li"><a href="#" class="menu-li-link">Consent preferences</a></li>
+            </ul>
+        </div>
 
-                <div class="col-12 col-lg-4 footer-editions">
-                    <h6 class="editions-h6">Editions: </h6>
-                    <ul class="editions-ul">
-                        <li class="editions-li"><a href="#" class="editions-link">U.S. Edition</a></li>
-                        <li class="editions-li"><a href="#" class="editions-link">日本</a></li>
-                        <li class="editions-li"><a href="#" class="editions-link">한국</a></li>
-                        <li class="editions-li"><a href="#" class="editions-link">Pakistan</a></li>
-                        <li class="editions-li"><a href="#" class="editions-link">Polska</a></li>
-                        <li class="editions-li"><a href="#" class="editions-link">România</a></li>
-                    </ul>
-                </div>
+        <div class="col-12 col-lg-4 footer-editions">
+            <h6 class="editions-h6">Editions: </h6>
+            <ul class="editions-ul">
+                <li class="editions-li"><a href="#" class="editions-link">U.S. Edition</a></li>
+                <li class="editions-li"><a href="#" class="editions-link">日本</a></li>
+                <li class="editions-li"><a href="#" class="editions-link">한국</a></li>
+                <li class="editions-li"><a href="#" class="editions-link">Pakistan</a></li>
+                <li class="editions-li"><a href="#" class="editions-link">Polska</a></li>
+                <li class="editions-li"><a href="#" class="editions-link">România</a></li>
+            </ul>
+        </div>
 
-        </footer>
-    
-    <!-- end of footer -->
+</footer>
 
-    </div>
-    <!-- bootstrap container closed -->
+<!-- end of footer -->
+
+<!-- bootstrap container closed -->
 
 </body>
 </html>

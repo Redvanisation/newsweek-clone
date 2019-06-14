@@ -60,7 +60,7 @@ nav button {
     background: none !important;
 }
 
-.show {
+.show-on-lg {
     display: none;
 }
 
@@ -571,13 +571,13 @@ nav button {
         display: block;
     }
 
-    .hide {
+    .hide-on-lg {
         display: none;
     }
 
     /* styling the bottom navbar */
 
-    .show {
+    .show-on-lg {
         display: block;
     } 
 
@@ -598,7 +598,7 @@ nav button {
         width: 5rem;
         background-color: #f72210;
         border-left: 12px solid white;
-        /* border-top: 13px solid #f72210; */
+        border-top: 13px solid #f72210;
     }
 
     .lg-nav-li {
@@ -607,13 +607,15 @@ nav button {
         padding-right: 1rem;
         border-right: 1px solid #d9d9d9;
         cursor: pointer;
+        color: #000;
+
     }
 
     
     .lg-nav-link:link,
     .lg-nav-link:visited {
         text-decoration: none;
-        color: #000;
+        color: #000 !important;
         font-weight: bold;
         font-size: 17px;
     }
@@ -647,6 +649,7 @@ nav button {
 
     .fa-icon-2 {
         font-size: 16px;
+        color: #000;
     }
 
     .footer-logo {
