@@ -19,6 +19,6 @@ Open your git bash and cd to the location you'd like to put your files the run t
 
 
 Here is the link to the live version of this project
-[here](https://rawcdn.githack.com/Redvanisation/newsweek-clone/7db4c55358c687bf17f6a8172ece30c222985303/index.html)
+[here](https://redvanisation.github.io/newsweek-clone/)
 
 
